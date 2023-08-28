@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header style="background-image: url('https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'); background-size: cover; background-position: center;">
+        <div class="overlay">
+            <h1>Your Name</h1>
+            <p>Professional in Social Media Management, Graphic Design, and Digital Marketing</p>
+        </div>
+    </header>
+    <nav>
+        <a href="#social-media">Social Media Management</a>
+        <a href="#graphic-design">Graphic Design</a>
+        <a href="#digital-marketing">Digital Marketing</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="social-media" class="content-section">
+        <h2>Social Media Management</h2>
+        <p>Description of your services...</p>
+        <img src="https://images.pexels.com/photos/607812/pexels-photo-607812.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="Social Media Management" class="section-image">
+    </section>
+    <section id="graphic-design" class="content-section">
+        <h2>Graphic Design</h2>
+        <p>Description of your services...</p>
+        <img src="https://images.pexels.com/photos/1704126/pexels-photo-1704126.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="Graphic Design" class="section-image">
+    </section>
+    <section id="digital-marketing" class="content-section">
+        <h2>Digital Marketing</h2>
+        <p>Description of your services...</p>
+        <img src="https://images.pexels.com/photos/373543/pexels-photo-373543.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="Digital Marketing" class="section-image">
+    </section>
+    <section id="contact" class="content-section">
+        <h2>Contact Me</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message"></textarea>
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+    <footer>
+        <p>Connect with me on:</p>
+    </footer>
+</body>
+</html>
